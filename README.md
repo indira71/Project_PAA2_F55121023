@@ -23,8 +23,6 @@ Project Akhir PAA 2 (Indira Yulianti_F55121023)
 **Analisis Algoritma Dijkstra:**
 - Worst Case: Dalam algoritma Dijkstra, di setiap iterasi, kita mencari kota dengan jarak terpendek yang belum dikunjungi, dan kemudian memperbarui jarak ke kota-kota tetangganya. Dalam kasus terburuk, setiap kota akan dikunjungi dan diperbarui. Oleh karena itu, kompleksitas waktu algoritma Dijkstra dalam kasus terburuk adalah O(|V|^2), di mana |V| adalah jumlah simpul (kota) dalam graf.
 - Best Case: Dalam kasus terbaik, algoritma Dijkstra dapat memiliki kompleksitas waktu O(|V| + |E| * log|V|), di mana |E| adalah jumlah tepi (jalur antar kota) dalam graf. Namun, dalam implementasi kode yang diberikan, kompleksitas waktu Dijkstra adalah O(|V|^2) karena kita menggunakan representasi graf berupa kamus dengan daftar tetangga dalam setiap simpul.
-- Average Case: Dalam kasus rata-rata, komple
+- Average Case: Dalam kasus rata-rata, kompleksitas waktu algoritma Dijkstra masih O(|V|^2) dalam implementasi kode yang diberikan.
 
-ksitas waktu algoritma Dijkstra masih O(|V|^2) dalam implementasi kode yang diberikan.
 
-Silahkan gunakan perbaikan di atas untuk memperbaiki README agar lebih rapi.
